@@ -127,7 +127,10 @@ h2{
   blue-text {
     color: blue;
   }
-
+  /*Override Class Declarations by Styling ID Attributes*/
+  #orange-text{
+    color: orange;
+  }
 
 
 
@@ -143,7 +146,9 @@ h2{
     <!--Inherit Styles from the Body Element-->
     <!--Prioritize One Style Over Another-->
      <!--Override Styles in Subsequent CSS-->
-    <h1 class="pink-text blue-text">Hello World</h1>
+    <!--Override Class Declarations by Styling ID Attributes-->
+    <h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+    class="pink-text blue-text">Hello World</h1>
     <!--Give a Background Color to a div Element-->
     <div class="silver-background">
     <!--Use a CSS Class to Style an Element-->
