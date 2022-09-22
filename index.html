@@ -123,7 +123,17 @@ h2{
  .pink-text{
     color:pink;
   }
-  
+  /*Override Styles in Subsequent CSS*/
+  blue-text {
+    color: blue;
+  }
+
+
+
+
+
+
+
 </style>
 </head>
 
@@ -132,7 +142,8 @@ h2{
 <body>
     <!--Inherit Styles from the Body Element-->
     <!--Prioritize One Style Over Another-->
-    <h1 class="pink-text">Hello World</h1>
+     <!--Override Styles in Subsequent CSS-->
+    <h1 class="pink-text blue-text">Hello World</h1>
     <!--Give a Background Color to a div Element-->
     <div class="silver-background">
     <!--Use a CSS Class to Style an Element-->
