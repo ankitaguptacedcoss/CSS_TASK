@@ -119,6 +119,10 @@ h2{
    color:green;
     font-family:monospace;
  }
+ /*Prioritize One Style Over Another*/
+ .pink-text{
+    color:pink;
+  }
   
 </style>
 </head>
@@ -127,7 +131,8 @@ h2{
 
 <body>
     <!--Inherit Styles from the Body Element-->
-    <h1>Hello World</h1>
+    <!--Prioritize One Style Over Another-->
+    <h1 class="pink-text">Hello World</h1>
     <!--Give a Background Color to a div Element-->
     <div class="silver-background">
     <!--Use a CSS Class to Style an Element-->
