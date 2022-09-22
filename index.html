@@ -105,6 +105,10 @@ h2{
     /*Use Clockwise Notation to Specify the Margin of an Element*/
     margin: 40px 20px 20px 40px;
   }
+  /*Use Attribute Selectors to Style Elements*/
+  [type='checkbox']{
+    margin:10px 0px 15px 0px;
+  }
   
 </style>
 </head>
@@ -129,6 +133,11 @@ h2{
     <form id="cat-photo-form" action="https://freecatphotoapp.com/submit-cat-photo">
     <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
     <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <!--Use Attribute Selectors to Style Elements-->
+    label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
     </form>
 </body>
 </html>
